@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>府城任務｜台南兩天一夜闖關之旅</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a href="#home" class="logo">
+      <span class="logo-mark">府</span>
+      <span>府城任務</span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="開啟選單">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#team">喵喵小隊</a>
+      <a href="#day1">Day 1</a>
+      <a href="#confucius-quiz">孔廟十問</a>
+      <a href="#day2">Day 2</a>
+      <a href="#anping-quiz">古堡十問</a>
+      <a href="#food">美食補給</a>
+      <a href="#route">路線圖</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 首頁 -->
+    <section class="hero section" id="home">
+      <div class="hero-overlay"></div>
+      <img class="hero-cloud cloud-a" src="image/backgrounds/gold-cloud.jpg" alt="" />
+      <img class="hero-cloud cloud-b" src="image/backgrounds/gold-cloud.jpg" alt="" />
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">Tainan Family Quest</p>
+        <h1>府城任務</h1>
+        <h2>台南兩天一夜闖關之旅</h2>
+        <p class="hero-text">
+          跟著喵喵小隊，一起走進台南的古蹟、美食與故事。
+        </p>
+
+        <div class="hero-actions">
+          <a href="#team" class="btn primary">開始任務</a>
+          <a href="#day1" class="btn secondary">查看行程</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 喵喵小隊 -->
+    <section class="section team-section" id="team">
+      <div class="section-title reveal">
+        <p class="eyebrow">Team</p>
+        <h2>喵喵小隊集合</h2>
+        <p>
+          你和家人化身成古風貓貓，一起完成府城闖關任務。
+          隊長青衡負責發布任務與判定通關，其他隊員負責一起闖關。
+        </p>
+      </div>
+
+      <div class="character-grid">
+        <article class="character-card reveal">
+          <div class="character-img-wrap">
+            <img src="image/qingheng.jpg" alt="青衡角色圖" />
+          </div>
+          <div class="character-info">
+            <span class="role-tag">隊長／總關主</span>
+            <h3>青衡</h3>
+            <p class="source">原型：關聖帝君</p>
+            <p>
+              青衡是喵喵小隊的隊長，也是這次府城任務的總關主。
+              他負責發布關卡、提醒任務重點，並判定大家是否成功通關。
+            </p>
+            <blockquote>「府城任務開始，喵喵小隊集合！」</blockquote>
+          </div>
+        </article>
+
+        <article class="character-card reveal">
+          <div class="character-img-wrap">
+            <img src="image/chengan.jpg" alt="澄安角色圖" />
+          </div>
+          <div class="character-info">
+            <span class="role-tag">闖關隊員</span>
+            <h3>澄安</h3>
+            <p class="source">原型：觀音</p>
+            <p>
+              澄安是喵喵小隊中最溫柔安定的成員，象徵平安、守護與陪伴。
+              她會和大家一起走完這趟台南旅程。
+            </p>
+            <blockquote>「大家一起走，就不怕迷路。」</blockquote>
+          </div>
+        </article>
+
+        <article class="character-card reveal">
+          <div class="character-img-wrap">
+            <img src="image/jingyao.jpg" alt="景曜角色圖" />
+          </div>
+          <div class="character-info">
+            <span class="role-tag">闖關隊員</span>
+            <h3>景曜</h3>
+            <p class="source">原型：虎爺</p>
+            <p>
+              景曜是喵喵小隊中最活潑、最好奇的一位。
+              他帶著虎爺般的勇氣與行動力，總是第一個發現新任務。
+            </p>
+            <blockquote>「前面一定有新任務！快跟上！」</blockquote>
+          </div>
+        </article>
+
+        <article class="character-card reveal">
+          <div class="character-img-wrap">
+            <img src="image/xuanling.jpg" alt="玄令角色圖" />
+          </div>
+          <div class="character-info">
+            <span class="role-tag">闖關隊員</span>
+            <h3>玄令</h3>
+            <p class="source">原型：王爺</p>
+            <p>
+              玄令是喵喵小隊中最有氣場的成員。
+              他帶著神秘與儀式感，讓這趟旅程更像真正的府城冒險。
+            </p>
+            <blockquote>「既然任務已開，就一起走到最後吧。」</blockquote>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 任務情報 -->
+    <section class="section info-section" id="info">
+      <div class="section-title reveal">
+        <p class="eyebrow">Mission Info</p>
+        <h2>任務情報</h2>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card reveal">
+          <span>日期</span>
+          <strong>2026 / 05 / 01 - 05 / 02</strong>
+        </div>
+        <div class="info-card reveal">
+          <span>主題</span>
+          <strong>母親節台南兩天一夜</strong>
+        </div>
+        <div class="info-card reveal">
+          <span>地點</span>
+          <strong>台南市區、安平、奇美博物館</strong>
+        </div>
+        <div class="info-card reveal">
+          <span>玩法</span>
+          <strong>答題闖關</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- Day 1 -->
+    <section class="section timeline-section" id="day1">
+      <div class="section-title reveal">
+        <p class="eyebrow">Day 1</p>
+        <h2>府城任務第一日</h2>
+        <p>第一天重點任務：臺南孔廟與府城探索。</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-card reveal">
+          <img src="image/tainan-station.jpg" alt="高鐵台南站" />
+          <div>
+            <time>08:01</time>
+            <h3>高鐵台南站</h3>
+            <p>府城任務正式啟動，喵喵小隊準備出發。</p>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal">
+          <img src="image/hotel.jpg" alt="和逸飯店台南西門館" />
+          <div>
+            <time>09:00</time>
+            <h3>和逸飯店 台南西門館</h3>
+            <p>抵達台南後，先進行任務補給與行李安置。</p>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal featured">
+          <img src="image/confucius-temple.jpg" alt="臺南孔廟" />
+          <div>
+            <time>09:28</time>
+            <h3>臺南孔廟</h3>
+            <p>第一關重點景點，聽完介紹後進入孔廟十問。</p>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal mystery-card">
+          <img src="image/mystery.jpg" alt="今日隱藏關卡" />
+          <div>
+            <time>10:26</time>
+            <h3>🔒 今日隱藏關卡</h3>
+            <p>任務尚未解鎖，請跟著行程前進。到達現場後才會揭曉。</p>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal">
+          <img src="image/ten-drum.jpg" alt="十鼓文創園區" />
+          <div>
+            <time>12:21</time>
+            <h3>十鼓文創園區</h3>
+            <p>進入充滿工業風與表演能量的文化場域。</p>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal">
+          <img src="image/food/beef-soup-luji.jpg" alt="碌記牛肉湯" />
+          <div>
+            <time>17:58</time>
+            <h3>樑記正老店牛肉湯</h3>
+            <p>府城美食補給，讓喵喵小隊補充戰力。</p>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal">
+          <img src="image/hotel.jpg" alt="回飯店" />
+          <div>
+            <time>20:37</time>
+            <h3>和逸飯店 台南西門館</h3>
+            <p>第一日任務完成，回到據點休息。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 孔廟十問 -->
+    <section class="section quiz-section confucius-bg" id="confucius-quiz">
+      <div class="quiz-overlay"></div>
+
+      <div class="quiz-content">
+        <div class="section-title light reveal">
+          <p class="eyebrow">Challenge 01</p>
+          <h2>第一關｜孔廟十問</h2>
+          <p>10 題，每題 10 分，滿分 100 分。此關只結算孔廟分數與孔廟稱號。</p>
+        </div>
+
+        <div class="captain-box reveal">
+          <img src="image/qingheng.jpg" alt="青衡" />
+          <p>青衡：「第一關，孔廟十問開始。請認真聽完介紹，再回答問題。」</p>
+        </div>
+
+        <div class="score-rule reveal">
+          <h3>孔廟稱號表</h3>
+          <div class="title-list">
+            <span>90–100｜全臺首學達人</span>
+            <span>70–89｜孔廟小學霸</span>
+            <span>50–69｜認真聽講旅人</span>
+            <span>30–49｜還需要隊長提示</span>
+            <span>0–29｜再聽隊長介紹一次</span>
+          </div>
+        </div>
+
+        <div id="confuciusQuiz" class="quiz-list"></div>
+
+        <div class="quiz-actions">
+          <button class="btn primary" onclick="submitQuiz('confucius')">結算孔廟分數</button>
+          <button class="btn secondary" onclick="resetQuiz('confucius')">重新挑戰孔廟十問</button>
+        </div>
+
+        <div id="confuciusResult" class="result-box hidden"></div>
+      </div>
+    </section>
+
+    <!-- Day 2 -->
+    <section class="section timeline-section" id="day2">
+      <div class="section-title reveal">
+        <p class="eyebrow">Day 2</p>
+        <h2>安平與回程任務</h2>
+        <p>第二天重點任務：安平古堡與府城歷史線索。</p>
+      </div>
+
+      <div class="day2-grid">
+        <article class="day-card reveal">
+          <img src="image/hotel.jpg" alt="和逸飯店" />
+          <time>08:00</time>
+          <h3>和逸飯店 台南西門館</h3>
+        </article>
+
+        <article class="day-card reveal">
+          <img src="image/chimei-museum.jpg" alt="奇美博物館" />
+          <time>09:29</time>
+          <h3>奇美博物館</h3>
+        </article>
+
+        <article class="day-card reveal">
+          <img src="image/anping-street.jpg" alt="安平老街" />
+          <time>12:22</time>
+          <h3>安平老街</h3>
+        </article>
+
+        <article class="day-card reveal featured">
+          <img src="image/anping-fort.jpg" alt="安平古堡" />
+          <time>13:25</time>
+          <h3>安平古堡</h3>
+        </article>
+
+        <article class="day-card reveal">
+          <img src="image/sicao-green-tunnel.jpg" alt="四草綠色隧道" />
+          <time>14:51</time>
+          <h3>四草綠色隧道</h3>
+        </article>
+
+        <article class="day-card reveal">
+          <img src="image/food/seafood.jpg" alt="東石鮮蚵嗨High" />
+          <time>16:44</time>
+          <h3>東石鮮蚵嗨High</h3>
+        </article>
+
+        <article class="day-card reveal">
+          <img src="image/chiayi-station.jpg" alt="高鐵嘉義站" />
+          <time>20:45</time>
+          <h3>高鐵嘉義站</h3>
+        </article>
+      </div>
+    </section>
+
+    <!-- 安平古堡十問 -->
+    <section class="section quiz-section anping-bg" id="anping-quiz">
+      <div class="quiz-overlay"></div>
+
+      <div class="quiz-content">
+        <div class="section-title light reveal">
+          <p class="eyebrow">Challenge 02</p>
+          <h2>第二關｜安平古堡十問</h2>
+          <p>10 題，每題 10 分，滿分 100 分。此關只結算古堡分數與古堡稱號。</p>
+        </div>
+
+        <div class="captain-box reveal">
+          <img src="image/qingheng.jpg" alt="青衡" />
+          <p>青衡：「第二關，安平古堡十問開始。想通過這關，就要拿出真本事。」</p>
+        </div>
+
+        <div class="score-rule reveal">
+          <h3>古堡稱號表</h3>
+          <div class="title-list">
+            <span>90–100｜熱蘭遮城守關者</span>
+            <span>70–89｜安平古堡小達人</span>
+            <span>50–69｜府城歷史旅人</span>
+            <span>30–49｜還需要隊長補課</span>
+            <span>0–29｜建議重闖古堡任務</span>
+          </div>
+        </div>
+
+        <div id="anpingQuiz" class="quiz-list"></div>
+
+        <div class="quiz-actions">
+          <button class="btn primary" onclick="submitQuiz('anping')">結算古堡分數</button>
+          <button class="btn secondary" onclick="resetQuiz('anping')">重新挑戰古堡十問</button>
+        </div>
+
+        <div id="anpingResult" class="result-box hidden"></div>
+      </div>
+    </section>
+
+    <!-- 美食補給站 -->
+    <section class="section food-section" id="food">
+      <div class="section-title reveal">
+        <p class="eyebrow">Food Station</p>
+        <h2>府城美食補給站</h2>
+        <p>美食區不是考題主線，但可以讓網站更有旅行感。</p>
+      </div>
+
+      <div class="filter-buttons reveal" id="foodFilters">
+        <button class="filter-btn active" data-filter="all">全部</button>
+        <button class="filter-btn" data-filter="beef">牛肉湯</button>
+        <button class="filter-btn" data-filter="ice">甜點冰品</button>
+        <button class="filter-btn" data-filter="rice">米糕碗粿</button>
+        <button class="filter-btn" data-filter="snack">小吃海鮮</button>
+        <button class="filter-btn" data-filter="gift">伴手禮</button>
+      </div>
+
+      <div class="food-grid" id="foodGrid"></div>
+    </section>
+
+    <!-- 路線圖 -->
+    <section class="section route-section" id="route">
+      <div class="section-title reveal">
+        <p class="eyebrow">Route Map</p>
+        <h2>府城任務路線圖</h2>
+        <p>用發光路線呈現兩天的任務移動軌跡。</p>
+      </div>
+
+      <div class="route-wrapper">
+        <div class="route-card reveal">
+          <h3>Day 1 路線</h3>
+          <div class="route-line">
+            <span>高鐵台南站</span>
+            <span>和逸飯店</span>
+            <span>臺南孔廟</span>
+            <span>今日隱藏關卡</span>
+            <span>十鼓文創園區</span>
+            <span>碌記牛肉湯</span>
+            <span>和逸飯店</span>
+          </div>
+        </div>
+
+        <div class="route-card reveal">
+          <h3>Day 2 路線</h3>
+          <div class="route-line">
+            <span>和逸飯店</span>
+            <span>奇美博物館</span>
+            <span>安平老街</span>
+            <span>安平古堡</span>
+            <span>四草綠色隧道</span>
+            <span>東石鮮蚵嗨High</span>
+            <span>高鐵嘉義站</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 結尾 -->
+    <section class="section final-section" id="final">
+      <div class="final-card reveal">
+        <img src="image/ui/badge-complete.jpg" alt="任務完成徽章" />
+        <p class="eyebrow">Mission Complete</p>
+        <h2>府城任務完成</h2>
+        <p>
+          兩關挑戰完成！喵喵小隊已完成本次府城任務。
+          這不是普通的旅行，而是一場和家人一起完成的府城冒險。
+        </p>
+        <blockquote>青衡：「兩關都完成了，這趟府城任務正式通關！」</blockquote>
+
+        <div class="hero-actions">
+          <a href="#home" class="btn primary">重新開始任務</a>
+          <a href="#confucius-quiz" class="btn secondary">再玩孔廟十問</a>
+          <a href="#anping-quiz" class="btn secondary">再玩古堡十問</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
